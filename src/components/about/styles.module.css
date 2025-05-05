@@ -1,0 +1,43 @@
+.aboutSection {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   gap: 32px;
+   padding: 40px 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.imageContainer {
+   flex: 1 1 300px;
+   max-width: 500px;
+   /* height: 400px; */
+}
+
+.image {
+   width: 100%;
+   border-radius: 10px;
+   object-fit: cover;
+}
+
+.textContainer {
+   flex: 2;
+   min-width: 280px;
+}
+
+.title {
+   font-size: 24px;
+   margin-bottom: 16px;
+   font-weight: 700;
+}
+
+.textContainer p {
+   font-size: 16px;
+   margin-bottom: 12px;
+   line-height: 1.6;
+}
+
+.textContainer strong {
+   font-weight: bold;
+}
