@@ -1,13 +1,99 @@
 .header {
    width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 5.5rem;
-
-   box-shadow: rgba(0, 0, 0, 0.603) 0px 13px 18px -18px;
+   background-image: url("https://storage.googleapis.com/atados-v3/user-uploaded/images/9cba808e-2499-4906-bd67-75480a512ae3.png");
+   background-size: cover;
+   background-position: center;
+   color: white;
 }
 
-img {
-   width: 100px;
+.topBar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 6px 20px;
+   background-color: #1e5c9a;
+}
+
+.logo {
+   /* height: 60px; */
+   width: 60px;
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+}
+
+.nav a {
+   color: white;
+   text-decoration: none;
+   font-weight: 500;
+   transition: opacity 0.2s;
+}
+
+.nav a:hover {
+   opacity: 0.8;
+}
+
+.donateButton {
+   background-color: white;
+   padding: 0.5rem 1rem;
+   border-radius: 999px;
+   font-weight: bold;
+}
+
+.hero {
+   padding: 4rem 2rem;
+   background: rgba(30, 92, 154, 0.405);
+
+   backdrop-filter: blur(2px);
+}
+
+.texts {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.imgContet {
+   width: 300px;
+}
+
+.texts h4 {
+   font-size: 1.2rem;
+   margin-bottom: 0.5rem;
+   font-weight: 400;
+}
+
+.texts h1 {
+   font-size: 3rem;
+   font-weight: 800;
+   line-height: 1.2;
+}
+
+.buttons {
+   margin-top: 1rem;
+   display: flex;
+   gap: 1rem;
+}
+
+.buttons button {
+   background-color: white;
+   color: #1e5c9a;
+   border: none;
+   padding: 0.6rem 1.5rem;
+   font-weight: bold;
+   border-radius: 999px;
+   cursor: pointer;
+   transition: background 0.2s;
+}
+
+.buttons button:hover {
+   background-color: #f0f0f0;
 }
