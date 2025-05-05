@@ -11,13 +11,13 @@ export function Header() {
                className={styles.logo}
             />
             <nav className={styles.nav}>
-               <a href="#">Quem somos</a>
+               <a href="#about">Quem somos</a>
                <a href="#">Empresas</a>
                <a href="#">Voluntários</a>
                <a href="#">ONG</a>
                <a
                   href="#"
-                  style={{ color: "--primary" }}
+                  style={{ color: "var(--primary)" }}
                   className={styles.donateButton}
                >
                   Doe agora
