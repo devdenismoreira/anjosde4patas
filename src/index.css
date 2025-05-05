@@ -11,6 +11,10 @@
    /* --secondary: #105b9c; */
 }
 
+body {
+   background-color: #81bbf42f;
+}
+
 button {
    cursor: pointer;
 }
