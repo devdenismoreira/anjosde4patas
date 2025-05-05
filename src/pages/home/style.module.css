@@ -1,0 +1,36 @@
+.titleSectionAbout {
+   margin-top: 1rem;
+   font-size: 3.2rem;
+   color: var(--primary);
+
+   /* transition: margin 100ms ease-in-out;
+   animation: 1.2s ease 0s 1 slideInFromRight; */
+}
+
+.sectionAbout {
+   transition: margin 200ms ease-in-out;
+   animation: 2s ease 0s 1 slideInFromRight;
+}
+
+.gridCardsPets {
+   display: flex;
+   flex-wrap: wrap; /* permite quebra de linha se a tela for menor */
+   gap: 20px;
+   justify-content: space-around;
+   margin-top: 2rem;
+
+   margin-bottom: 10rem;
+   cursor: pointer;
+}
+
+@keyframes slideInFromRight {
+   0% {
+      transform: translatex(4%);
+      opacity: 0;
+   }
+
+   100% {
+      transform: translatex(1);
+      opacity: 4;
+   }
+}
