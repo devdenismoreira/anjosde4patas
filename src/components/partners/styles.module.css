@@ -1,0 +1,22 @@
+.partnersContainer {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+
+   flex-wrap: wrap;
+   margin-top: 1rem;
+}
+
+.partnersLogo {
+   height: 110px;
+   max-width: 130px;
+   object-fit: contain;
+   cursor: pointer;
+   transition: transform 0.3s ease-in-out;
+   border-radius: 8px;
+}
+
+.partnersLogo:hover {
+   transform: scale(1.05);
+}
