@@ -4,15 +4,17 @@ type PetCardProps = {
    name: string;
    imageUrl: string;
    bgColor?: string;
+   onClick?: () => void;
 };
 
 export const PetCard = ({
    name,
    imageUrl,
    bgColor = "#ffffff",
+   onClick,
 }: PetCardProps) => {
    return (
-      <div className={styles.cardContainer}>
+      <div className={styles.cardContainer} onClick={onClick}>
          <div
             className={styles.imageWrapper}
             style={{ backgroundColor: bgColor }}
