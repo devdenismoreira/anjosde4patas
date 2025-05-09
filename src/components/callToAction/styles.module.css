@@ -26,18 +26,20 @@
    margin-bottom: 24px;
 }
 
-.button {
-   padding: 12px 20px;
-   border: none;
+.whatsappButton {
+   display: inline-flex;
+   align-items: center;
+   gap: 8px;
+   background-color: white;
+   color: var(--primary);
+   font-weight: 600;
+   padding: 10px 20px;
    border-radius: 8px;
-   background-color: white; /* roxo escuro */
-   color: var(--primary); /* azul médio */
-   font-weight: bold;
-   cursor: pointer;
-   transition: background 0.3s;
+   text-decoration: none;
+   transition: all 0.3s ease;
 }
 
-.button:hover {
+.whatsappButton:hover {
    opacity: 0.8;
 }
 
@@ -52,4 +54,13 @@
    height: 220px;
    object-fit: cover;
    border-radius: 60px;
+}
+
+@media screen and (max-width: 528px) {
+   .imagesSection {
+      justify-content: center;
+   }
+   .imagesSection > img:last-child {
+      display: none;
+   }
 }
