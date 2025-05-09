@@ -1,4 +1,4 @@
-import huh from "../../assets/huh.png";
+import hvh from "../../assets/hvh.png";
 import integralle from "../../assets/integralleAcademia.png";
 import fatima from "../../assets/NSdeFatima.png";
 import petGati from "../../assets/petGati.png";
@@ -8,7 +8,7 @@ export const partners = [
    {
       id: 1,
       name: "HVH",
-      logo: huh,
+      logo: hvh,
    },
    {
       id: 2,
