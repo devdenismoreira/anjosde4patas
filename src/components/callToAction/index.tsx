@@ -26,21 +26,21 @@ export const CallToAction = () => {
                src={
                   "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2023/08/24/806x444/1_57311569-24050589.jpg?654abd024faae"
                }
-               alt="Pata e mão"
+               alt="Cachorro"
                className={styles.image}
             />
             <img
                src={
-                  "http://www.uipa.org.br/wp-content/uploads/2013/08/uipa-300x300-dog.png"
+                  "https://i0.statig.com.br/bancodeimagens/2f/ym/i8/2fymi85z5vo5pcl5rsnsr3xgi.jpg"
                }
-               alt="Gato"
+               alt="Cachorro Caramelo"
                className={styles.image}
             />
             <img
                src={
                   "https://chefbob.com.br/wp-content/uploads/2020/10/2020-10-16-problemas-de-pele-em-gatos.jpg"
                }
-               alt="Porco"
+               alt="Gato"
                className={styles.image}
             />
          </div>
