@@ -56,3 +56,11 @@
 .adoptButton:hover {
    background-color: #ea580c;
 }
+
+@media screen and (max-width: 520px) {
+   .card {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+}
