@@ -12,15 +12,15 @@ export function Header() {
             />
             <nav className={styles.nav}>
                <a href="#about">Quem somos</a>
-               <a href="#">Empresas</a>
-               <a href="#">Voluntários</a>
-               <a href="#">ONG</a>
+               <a href="#testimonials">Depoimentos</a>
+               <a href="#volunteer">Voluntários</a>
+               <a href="#partners">Parceiros</a>
                <a
-                  href="#"
+                  href="#callToAction"
                   style={{ color: "var(--primary)" }}
                   className={styles.donateButton}
                >
-                  Doe agora
+                  Doar
                </a>
             </nav>
          </div>
@@ -34,8 +34,8 @@ export function Header() {
                      <br />À ADOÇÃO
                   </h1>
                   <div className={styles.buttons}>
-                     <button>VAGAS</button>
-                     <button>ONGS</button>
+                     <button>DOAR</button>
+                     <button>SAIBA MAIS</button>
                   </div>
                </div>
                <div>
