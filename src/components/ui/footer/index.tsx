@@ -7,6 +7,13 @@ export function Footer() {
          <div className={styles.footerContainer}>
             <div className={styles.footerLeft}>
                <p>
+                  <strong>Anjos de 4 Patas</strong>
+               </p>
+               <p>
+                  <strong>Contatos</strong>
+               </p>
+
+               <p>
                   <strong>Email:</strong>{" "}
                   <a href="mailto:anjosde4patas@recife.pe.gov.br">
                      anjosde4patas@recife.pe.gov.br
