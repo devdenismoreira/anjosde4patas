@@ -14,36 +14,30 @@ export function About() {
          </div>
          <div className={styles.textContainer}>
             <p>
-               Lorem ipsum dolor sit amet,{" "}
-               <strong>consectetur adipiscing elit</strong>. Quisque fermentum
-               dolor vitae neque ullamcorper, ut fringilla orci condimentum.
-               Desde 2010, promovemos ações em prol da{" "}
-               <strong>conscientização sobre os direitos dos animais</strong>.
+               Criada em 2015 pela Dra. Laura Ferraz, a Anjos do Poço é uma ONG
+               independente, sem vínculos políticos, que atua na proteção dos
+               direitos dos animais e na conservação ambiental. Com dedicação,
+               responsabilidade e afeto, acolhemos animais vítimas de abandono
+               ou maus-tratos, oferecendo atendimento veterinário, abrigo
+               provisório e a possibilidade de uma nova vida por meio da adoção
+               consciente..
             </p>
             <p>
-               Nossa missão é <strong>educar e proteger</strong> os animais por
-               meio de ações voluntárias, adoções responsáveis e programas
-               educativos.
+               Nossa atuação vai muito além do salvamento dos animais.
+               Acreditamos em uma sociedade mais justa e equilibrada, por isso
+               também oferecemos apoio a catadores de recicláveis e protetores
+               autônomos, incentivando atitudes sustentáveis que integram o
+               cuidado animal, a responsabilidade social e a preservação
+               ambiental.
             </p>
             <p>
-               Por meio de{" "}
-               <strong>
-                  parcerias com escolas, comunidades e órgãos públicos
-               </strong>
-               , buscamos transformar a realidade de animais em situação de
-               abandono.
+               Com uma estrutura ética e moderna, que inclui espaços individuais
+               para os animais e serviços de qualidade, nosso objetivo é
+               transformar realidades – tanto humanas quanto animais – com
+               empatia, respeito e informação. Nossa missão é fomentar uma
+               convivência harmoniosa entre pessoas, animais e natureza,
+               valorizando a vida em todas as suas formas.
             </p>
-
-            <p>
-               Lorem Ipsum is simply dummy text of the printing and typesetting
-               industry. Lorem Ipsum has been the industry's standard dummy text
-               ever since the 1500s, when an unknown printer took a galley of
-               type and scrambled it to make a type specimen book. It has
-               survived not only five centuries, but also the leap into
-               electronic typesetting, remaining essentially unchanged. It was
-               popularised in
-            </p>
-            <p>Junte-se a nós e faça parte dessa mudança!</p>
          </div>
       </section>
    );
