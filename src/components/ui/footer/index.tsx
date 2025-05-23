@@ -23,7 +23,7 @@ export function Footer() {
                   <strong>Telefone:</strong> (81) 982295333
                </p>
                <p>
-                  <strong>Endereço:</strong> Rua dos Anjos, 123 - Recife, PE
+                  <strong>Endereço:</strong> Aldeia, Recife, PE
                </p>
             </div>
 
