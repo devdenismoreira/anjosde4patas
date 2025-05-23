@@ -11,14 +11,14 @@ export function ContactSection() {
                <strong>Nossos contatos:</strong>
                <p>
                   E-mail:{" "}
-                  <a href="mailto:anjosde4patas@recife.pe.gov.br">
-                     anjosde4patas@recife.pe.gov.br
+                  <a href="mailto:adequatropatas86@gmail.com">
+                     Adequatropatas86@gmail.com
                   </a>
                </p>
             </div>
 
             <a
-               href="https://wa.me/5591999999999"
+               href="https://wa.me/5581982295333"
                target="_blank"
                rel="noopener noreferrer"
                className={styles.whatsappButton}
