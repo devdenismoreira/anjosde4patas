@@ -12,10 +12,18 @@ type Pet = {
 
 type PetInfoCardProps = {
    pet: Pet;
-   onAdotar?: () => void;
 };
 
-const PetInfoCard: React.FC<PetInfoCardProps> = ({ pet, onAdotar }) => {
+const PetInfoCard: React.FC<PetInfoCardProps> = ({ pet }) => {
+   const handleAdotarClick = () => {
+      const numero = "5581982295333";
+      const mensagem = `Olá! Tenho interesse em adotar o(a) ${pet.nome}.`;
+      const url = `https://wa.me/${numero}?text=${encodeURIComponent(
+         mensagem
+      )}`;
+      window.open(url, "_blank");
+   };
+
    return (
       <div className={styles.card}>
          <img
@@ -34,7 +42,7 @@ const PetInfoCard: React.FC<PetInfoCardProps> = ({ pet, onAdotar }) => {
             </p>
             <p className={styles.description}>{pet.descricao}</p>
 
-            <button className={styles.adoptButton} onClick={onAdotar}>
+            <button className={styles.adoptButton} onClick={handleAdotarClick}>
                <FaHandHoldingHeart size={18} />
                Adotar
             </button>
