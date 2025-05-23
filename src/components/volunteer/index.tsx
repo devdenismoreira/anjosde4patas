@@ -11,14 +11,15 @@ export const Volunteer = () => {
                contato conosco! Juntos, podemos fazer a diferença na vida desses
                animais que tanto precisam.
             </p>
+
             <a
-               href="https://wa.me/SEUNUMEROAQUI" // Substitua por algo como: https://wa.me/5511999999999
+               href="https://wa.me/5581982295333"
                target="_blank"
                rel="noopener noreferrer"
                className={styles.whatsappButton}
             >
                <FaWhatsapp size={20} />
-               Entrar contato
+               Entrar em contato
             </a>
          </div>
          <div className={styles.imagesSection}>

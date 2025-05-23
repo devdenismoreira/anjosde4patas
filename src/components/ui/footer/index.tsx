@@ -15,12 +15,12 @@ export function Footer() {
 
                <p>
                   <strong>Email:</strong>{" "}
-                  <a href="mailto:anjosde4patas@recife.pe.gov.br">
-                     anjosde4patas@recife.pe.gov.br
+                  <a href="mailto:adequatropatas86@gmail.com">
+                     adequatropatas86@gmail.com
                   </a>
                </p>
                <p>
-                  <strong>Telefone:</strong> (81) 99999-9999
+                  <strong>Telefone:</strong> (81) 982295333
                </p>
                <p>
                   <strong>Endereço:</strong> Rua dos Anjos, 123 - Recife, PE
@@ -29,20 +29,20 @@ export function Footer() {
 
             <div className={styles.footerRight}>
                <a
-                  href="https://wa.me/5581999999999"
+                  href="https://wa.me/5581982295333"
                   target="_blank"
                   rel="noopener noreferrer"
                >
                   <FaWhatsapp className={styles.icon} />
                </a>
                <a
-                  href="https://instagram.com/anjosde4patas"
+                  href="https://instagram.com/anjos_depatas4 "
                   target="_blank"
                   rel="noopener noreferrer"
                >
                   <FaInstagram className={styles.icon} />
                </a>
-               <a href="mailto:anjosde4patas@recife.pe.gov.br">
+               <a href="mailto:adequatropatas86@gmail.com">
                   <FaEnvelope className={styles.icon} />
                </a>
             </div>
