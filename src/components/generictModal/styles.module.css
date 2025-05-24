@@ -87,4 +87,8 @@
    right: 10px;
    cursor: pointer;
    z-index: 1002;
+
+   svg {
+      color: var(--primary);
+   }
 }

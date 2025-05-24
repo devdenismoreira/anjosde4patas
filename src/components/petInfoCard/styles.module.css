@@ -9,8 +9,8 @@
 }
 
 .image {
-   width: 200px;
-   /* height: 180px; */
+   width: 220px;
+   /* height: 300px; */
    object-fit: cover;
    border-radius: 12px;
    flex-shrink: 0;
